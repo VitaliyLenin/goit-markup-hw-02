@@ -1,0 +1,70 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #757575; 
+}
+
+.logo {
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1,2;
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration: none;
+}
+
+.studio-span {
+    color: black;
+}
+
+.studio-nav {    
+    
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+color: #2196F3;
+
+}
+
+.portfolio-nav , .contacts-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+}
+
+.mail {   
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+
+.title {
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #535050;
+}
+
+.button {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px
+}
