@@ -3,10 +3,12 @@ body {
   color: #212121;
 }
 
+/*шапка*/
+
 .header {
   background-color: #ffffff;
 }
-.logo-nav {
+.header-logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -20,17 +22,21 @@ body {
   color: #000000;
 }
 
-.link-nav {
+.header-item {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.header-link {
+  color: #212121;
   text-decoration: none;
 }
 
-.link-nav:hover,
-.link-nav:focus {
+.header-link:hover,
+.header-link:focus {
   color: #2196f3;
 }
 
@@ -43,15 +49,16 @@ body {
   color: #757575;
 }
 
-.mail:hover,
-.mail:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #2196f3;
+}
+.contacts-link {
+  color: #757575;
+  text-decoration: none;
 }
 
-.tel:hover,
-.tel.focus {
-  color: #2196f3;
-}
+/* Герой*/
 
 .hero {
   background-color: #2f303a;
@@ -79,6 +86,8 @@ body {
   background-color: #2196f3;
 }
 
+/* Features*/
+
 .feature {
   background-color: #e5e5e5;
 }
@@ -91,6 +100,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .text {
   font-family: 'Roboto';
   font-size: 14px;
@@ -99,6 +109,7 @@ body {
   color: #757575;
 }
 
+/* work */
 .work {
   background-color: #e5e5e5;
 }
@@ -111,6 +122,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* our team*/
 .team {
   background-color: #f5f4fa;
 }
@@ -131,11 +143,13 @@ body {
   color: #757575;
 }
 
+/*footer*/
+
 .footer {
   background-color: #2f303a;
 }
 
-.logo-footer {
+.footer-logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -155,14 +169,16 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
 
-.info {
+.footer-link {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .address-link:hover,
@@ -170,7 +186,7 @@ body {
   color: #2196f3;
 }
 
-.info:hover,
-.info:focus {
+.footer-link:hover,
+.footer-link:focus {
   color: #2196f3;
 }
