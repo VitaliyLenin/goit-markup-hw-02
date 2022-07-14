@@ -1,13 +1,24 @@
+:root {
+  --main-page-color: #212121;
+  --secondary-page-color: #757575;
+  --accent-color: #2196f3;
+}
+
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #212121;
 }
 
-/*шапка*/
-
-.header {
-  background-color: #ffffff;
+.list {
+  list-style: none;
 }
+
+.link {
+  text-decoration: none;
+}
+
+/*--------шапка---------*/
+
 .header-logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -15,57 +26,45 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
-  text-decoration: none;
 }
 
-.header-span {
+.header-nav span {
   color: #000000;
 }
 
-.header-item {
-  font-family: 'Roboto';
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.header-link {
-  color: #212121;
-  text-decoration: none;
+  color: var(--main-page-color);
 }
 
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.contacts {
-  font-family: 'Roboto';
+.contacts-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-page-color);
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #2196f3;
-}
-.contacts-link {
-  color: #757575;
-  text-decoration: none;
+  color: var(--accent-color);
 }
 
-/* Герой*/
+/* ------------Герой------------*/
 
 .hero {
   background-color: #2f303a;
 }
 
 .hero-title {
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -75,25 +74,33 @@ body {
   color: #ffffff;
 }
 
-.button {
-  font-family: 'Roboto';
+.hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
   color: #ffffff;
   background-color: #2196f3;
 }
 
-/* Features*/
+/*------------------- Features---------------*/
 
-.feature {
-  background-color: #e5e5e5;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.feauture-title {
-  font-family: 'Roboto';
+.feature-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -101,34 +108,25 @@ body {
   text-transform: uppercase;
 }
 
-.text {
-  font-family: 'Roboto';
+.feature-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-page-color);
 }
 
-/* work */
-.work {
-  background-color: #e5e5e5;
-}
+/*----------------- work-------------------- */
 
 .work-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
-/* our team*/
-.team {
-  background-color: #f5f4fa;
-}
+/* -------------------our team-----------------*/
 
 .card-title {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -136,14 +134,13 @@ body {
 }
 
 .card-text {
-  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-page-color);
 }
 
-/*footer*/
+/*-----------------footer--------------------*/
 
 .footer {
   background-color: #2f303a;
@@ -156,10 +153,9 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-  text-decoration: none;
 }
 
-.footer-span {
+.footer span {
   color: #ffffff;
 }
 
@@ -169,24 +165,22 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  text-decoration: none;
 }
 
-.footer-link {
+.mail-link,
+.tel-link {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 
 .address-link:hover,
-.address-link:focus {
-  color: #2196f3;
-}
-
-.footer-link:hover,
-.footer-link:focus {
-  color: #2196f3;
+.address-link:focus,
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
 }
