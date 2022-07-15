@@ -20,7 +20,7 @@ body {
 /*--------шапка---------*/
 
 .header-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -147,7 +147,7 @@ body {
 }
 
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -160,8 +160,8 @@ body {
 }
 
 .address-link {
-  font-family: 'Roboto';
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -169,8 +169,8 @@ body {
 
 .mail-link,
 .tel-link {
-  font-family: 'Roboto';
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
